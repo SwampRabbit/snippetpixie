@@ -18,10 +18,13 @@ Build-Depends: appstream,
                libxtst-dev,
                libx11-dev
 Standards-Version: 3.9.3
+Homepage: https://www.snippetpixie.com/
 
 Package: com.github.bytepixie.snippetpixie
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Your little expandable text snippet helper.
- Save your often used text snippets and then expand them whenever you type their abbreviation.
+ Save your often used text snippets and then expand them whenever you type their
+ abbreviation.
+ .
  For example:- "spr`" expands to "Snippet Pixie rules!"
